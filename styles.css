@@ -19,7 +19,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1.5%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .logo img {
@@ -30,6 +39,14 @@ header {
 .header-links {
     display: flex;
     list-style: none;
+    gap: 15px;
+}
+
+.header-links a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
 }
 
 .hero {
@@ -47,19 +64,26 @@ header {
     color: #FFFFFF;
 }
 
-.hero-text h1 {
+.hero-title {
     width: 578px;
     height: 40px;
+    margin-top: 1%;
+    font-size: 32px;
+    font-weight: bold;
 }
 
-.hero-text h5 {
+.hero-subtitle {
     height: 20px;
     width: 355px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.hero-text p {
+.hero-info {
     max-width: 637px;
     height: 104px;
+    margin-top: 11%;
+    font-size: 16px;
 }
 
 .hero-btn {
@@ -69,4 +93,6 @@ header {
     color: #FFFFFF;
     border-radius: 22px;
     border: none;
+    margin: 30px 0;
+    font-size: 16px;
 }
