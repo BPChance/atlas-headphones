@@ -38,8 +38,10 @@ header {
 
 .header-links {
     display: flex;
+    font-size: 12px;
+    font-weight: bold;
     list-style: none;
-    gap: 15px;
+    gap: 45px;
 }
 
 .header-links a {
