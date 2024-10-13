@@ -81,9 +81,9 @@ header {
 
 .hero-info {
     max-width: 637px;
-    height: 104px;
-    margin-top: 11%;
+    margin-top: 7%;
     font-size: 16px;
+    line-height: 2;
 }
 
 .hero-btn {
