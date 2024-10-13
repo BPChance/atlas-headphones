@@ -196,3 +196,42 @@ header {
     width: 70%;
     margin: 0 auto;
 }
+
+/* What we do section - Tablet View - Dacoda Takagi */
+
+@media (max-width: 768px) {
+    .wwd-top-text {
+        margin: 50px auto;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .wwd-top-text h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .wwd-top-text p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .wwd-icon {
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .wwd-icon div {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+/* What we do section - Mobile View - Dacoda Takagi */
+
+@media (max-width: 375px) {
+    
+}
