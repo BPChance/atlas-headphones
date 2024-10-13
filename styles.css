@@ -119,3 +119,24 @@ header {
         margin-top: 3.5%;
     }
 }
+
+@media (max-width: 375px) {
+    /* Header and hero section attempt - Braden Chance*/
+    .background-img {
+        background-image: url(images/headphones_hero_1.jpg);
+        margin: auto;
+        padding: 100vh
+    }
+
+    .header-container {
+        padding: 2%;
+    }
+    
+    .header-links {
+        display: none;
+    }
+
+    .hero-text {
+        margin: 0 5%;
+    }
+}
