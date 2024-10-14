@@ -101,6 +101,82 @@ header {
     font-size: 16px;
 }
 
+/* Results section - Braden Chance */
+
+.our-results {
+    background-image: url('images/headphones_hero_2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    max-width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.results-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.our-results h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.our-results p {
+    font-size: 16px;
+    width: 637px;
+    margin-bottom: 3%;
+    line-height: 2;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.result-shapes {
+    position: relative;
+    text-align: center;
+    width: 190px;
+}
+
+.result-shapes img {
+    width: 100%;
+    height: auto;
+}
+
+.result-shapes h1,
+.result-shapes p {
+    position: absolute;
+    width: 100%;
+}
+
+.result-shapes h1 {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.result-shapes p {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 14px;
+    white-space: nowrap;
+}
+
 @media (max-width: 768px) {
     /* header and hero section - Braden Chance */
     .header-container {
