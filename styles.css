@@ -251,14 +251,12 @@ header {
     Header and hero section attempt - Braden Chance
     */
     .background-img {
-        background-image: url(images/headphones_hero_1.jpg);
-        background-position: left center;
-        margin: auto;
-        padding: 100vh;
+        
+        background-position: 
     }
 
     .header-container {
-        padding: 2%;
+        justify-content: center;
     }
     
     .header-links {
@@ -267,8 +265,29 @@ header {
 
     .hero-text {
         margin: 0 5%;
+        width: 357px;
+        margin-top: 40%;
+    }
+    
+    .hero-title {
+        width: 357px;
+        height: 80px;
+        margin-bottom: 2%;
+    }
+    
+    .hero-subtitle {
+        margin-bottom: 5%;
+        width: 279px;
     }
 
+    .hero-btn {
+        margin-bottom: 15%;
+    }
+
+    .hero-info {
+        width: 335px;
+    }
+    
     /*
     Mobile view
     Results section - Braden Chance
@@ -285,9 +304,11 @@ header {
     }
 
     .our-results h1 {
+        width: 266px;
     }
 
     .our-results p {
+        width: 305px;
     }
     
     .results {
