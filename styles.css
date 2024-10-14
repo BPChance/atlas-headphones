@@ -99,6 +99,7 @@ header {
     border: none;
     margin: 30px 0;
     font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Results section - Braden Chance */
