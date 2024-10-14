@@ -375,7 +375,7 @@ header {
     margin: 0 auto;
 }
 
-/* What we do section - Tablet View - Dacoda Takagi */
+/* Tablet View - Dacoda Takagi */
 
 @media (max-width: 768px) {
     .wwd-top-text {
@@ -408,7 +408,7 @@ header {
     }
 }
 
-/* What we do section - Mobile View - Dacoda Takagi */
+/* Mobile View - Dacoda Takagi */
 
 @media (max-width: 375px) {
     .wwd-top-text p {
@@ -435,6 +435,11 @@ header {
 
     .wwd-icon p {
         width: 100%;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
