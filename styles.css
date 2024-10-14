@@ -250,9 +250,7 @@ header {
     Mobile view
     Header and hero section attempt - Braden Chance
     */
-    .background-img {
-        
-        background-position: 
+    .background-img img {
     }
 
     .header-container {
@@ -266,7 +264,7 @@ header {
     .hero-text {
         margin: 0 5%;
         width: 357px;
-        margin-top: 40%;
+        margin-top: 35%;
     }
     
     .hero-title {
