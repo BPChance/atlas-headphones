@@ -178,7 +178,10 @@ header {
 }
 
 @media (max-width: 768px) {
-    /* header and hero section - Braden Chance */
+    /* 
+    Tablet view
+    header and hero section - Braden Chance
+    */
     .header-container {
         padding: 3% 7%
     }
@@ -194,14 +197,53 @@ header {
     .hero-info {
         margin-top: 3.5%;
     }
+
+    /* 
+    Tablet view
+    Results section - Braden Chance
+    */
+
+    .our-results {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 876px;
+    }
+
+    .results-text {
+        margin-top: 5%;
+    }
+
+    .our-results h1 {
+        margin-bottom: 3%;
+    }
+
+    .our-results p {
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+    
+    .results {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%
+    }
+    
+    .result-shapes {
+        margin-top: 5%;
+    }
+    
 }
 
 @media (max-width: 375px) {
-    /* Header and hero section attempt - Braden Chance*/
+    /* 
+    Mobile view
+    Header and hero section attempt - Braden Chance
+    */
     .background-img {
         background-image: url(images/headphones_hero_1.jpg);
+        background-position: left center;
         margin: auto;
-        padding: 100vh
+        padding: 100vh;
     }
 
     .header-container {
