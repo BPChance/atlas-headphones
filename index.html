@@ -97,39 +97,15 @@
             <div class="contact">
                 <h1>Contact us</h1>
                 <form action="#" method="post">
-                    <fieldset>
-                        <div class="form-group col-1-2">
-                            <label for="Name">Name</label>
-                            <div class="form-field">
-                                <span class="form-field-container">
-                                    <input type="text" name="Name" id="Name" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="50" autocomplete="on" accesskey="n" required="true">
-                                    <i class="form-field-icon"></i>
-                                </span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="form-group col-2-3">
-                            <label for="Email">Email</label>
-                            <div class="form-field">
-                                <span class="form-field-container">
-                                    <input type="email" name="Email" id="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="55" autocomplete="on" accesskey="e" required="true">
-                                    <i class="form-field-icon"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <div class="form-group col-2-3">
-                            <label for="your-message">Your message</label>
-                            <div class="form-field">
-                                <span class="form-field-container">
-                                    <textarea name="your-message" id="your-message" minlength="10" accesskey="m" required="true"></textarea>
-                                </span>
-                            </div>
-                        </div>
-                </form>
+                    <div class="contact-form">
+                        <input type="text" placeholder="Name" id="Name" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="50" autocomplete="on" accesskey="n" required="true">
+                        <input type="email" placeholder="Email" id="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="55" autocomplete="on" accesskey="e" required="true">
+                        <textarea name="your-message" id="your-message" minlength="10" accesskey="m" placeholder="Your message" rows="1" required="true"></textarea>
+                    </div>
                 <button>
                     Call to action
                 </button>
+                </form>
             </div>
         </section>
     </main>
