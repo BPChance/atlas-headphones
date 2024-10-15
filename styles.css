@@ -294,6 +294,19 @@ header {
     .result-shapes {
         margin-top: 5%;
     }
+
+    /*
+    Tablet view
+    Footer section - Braden Chance
+    */
+
+    footer {
+        padding: 7%
+    }
+
+    .copyright {
+        margin-top: 10%
+    }
     
 }
 
