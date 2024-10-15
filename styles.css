@@ -102,6 +102,12 @@ header {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.menu-icon,
+.menu-toggle
+{
+    display: none;
+}
+
 /* Results section - Braden Chance */
 
 .our-results {
@@ -178,6 +184,46 @@ header {
     white-space: nowrap;
 }
 
+/* Footer section - Braden Chance */
+
+.footer {
+    background-color: #071629;
+    width: 100%;
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.foot-logo {
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+    margin-top: 7%
+}
+
+.logo_headphones {
+    width: 161px;
+    height: 32px;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
 @media (max-width: 768px) {
     /* 
     Tablet view
@@ -207,6 +253,12 @@ header {
 
     .hero-info {
         margin-top: 3.5%;
+    }
+
+    .menu-icon,
+    .menu-toggle
+    {
+        display: none;
     }
 
     /* 
@@ -250,15 +302,38 @@ header {
     Mobile view
     Header and hero section attempt - Braden Chance
     */
-    .background-img img {
-    }
-
+    
     .header-container {
+        display: flex;
         justify-content: center;
     }
     
     .header-links {
         display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left: 5%;
+        margin-top: -6%;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-toggle:checked + .menu-icon + .header-links {
+        display: flex;
+        position: absolute;
     }
 
     .hero-text {
