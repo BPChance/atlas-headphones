@@ -396,11 +396,27 @@ header {
     .our-results p {
         width: 305px;
     }
-    
-    .results {
+
+    /*
+    Mobile view
+    Footer section - Braden Chance
+    */
+
+    footer {
+        align-items: center;
     }
-    
-    .result-shapes {
+
+    .foot-logo {
+        flex-direction: column;
+    }
+
+    .logo_headphones {
+        margin-bottom: 25%
+    }
+
+    .socials {
+        margin: 0 auto;
+        margin-bottom: 20%
     }
 }
 
