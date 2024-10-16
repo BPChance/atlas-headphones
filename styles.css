@@ -538,6 +538,7 @@ header {
         gap: 50px;
         width: 50%;
         padding-top: 100px;
+        margin: 0 auto;
     }
 
     .wwd-icon div {
