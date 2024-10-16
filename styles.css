@@ -310,7 +310,7 @@ header {
     
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     /* 
     Mobile view
     Header and hero section attempt - Braden Chance
@@ -523,7 +523,7 @@ header {
 
 /* Mobile View - Dacoda Takagi */
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .wwd-top-text p {
         width: 94%;
         font-size: 16px;
