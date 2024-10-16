@@ -387,6 +387,15 @@ header {
     }
 
     .results-text {
+        margin-bottom: 10%;
+    }
+
+    .results {
+        justify-content: center;
+    }
+
+    .results img {
+        margin-bottom: 20%;
     }
 
     .our-results h1 {
