@@ -7,3 +7,6 @@ A responsive website for Atlas Headphones.
 ## Technologies used
 * HTML
 * CSS
+
+## Link to Atlas Headphones
+https://bpchance.github.io/atlas-headphones/index.html
